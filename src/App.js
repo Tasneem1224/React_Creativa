@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ClassComp from "./Components/ClassComponentEX/ClassComponent";
+import ClassProps from "./Components/ClassPropsEX/ClassProps";
+import FunctionalComp from "./Components/FunctionalComponentEX/FunctionalComponent";
+import FunctionalProps from "./Components/FunctionalPropsEX/FunctionalProps";
+import StateEX from "./Components/StateEX/StateEX";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ClassComp />
+      <p>*********************************************************</p>
+      <FunctionalComp />
+      <p>*********************************************************</p>
+
+      <FunctionalProps
+        fname="Tasneem"
+        lname="Farouk"
+        age={22}
+        phone="0123456789"
+      >
+        <p> live in Menoufia </p>
+      </FunctionalProps>
+      <p>*********************************************************</p>
+
+      <ClassProps subject1="Programming" subject2="Networks">
+        <p> Wireless networks </p>
+      </ClassProps>
+      <p>******************************************************</p>
+      <StateEX />
     </div>
   );
 }
