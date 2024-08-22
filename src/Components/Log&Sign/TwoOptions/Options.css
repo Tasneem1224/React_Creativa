@@ -1,0 +1,35 @@
+.body0 {
+  width: 100%;
+  height: 750px;
+  background: linear-gradient(to bottom, #ac5eff, #3680ff);
+  margin-top: -20px;
+  font-family: Bebas;
+}
+
+.op {
+  height: 300px;
+  width: 500px;
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  margin-top: 200px;
+  padding-top: 50px;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.but {
+  width: 200px;
+  height: 70px;
+  margin-top: 30px;
+  color: aliceblue;
+  background-color: #ac5eff;
+  font-size: 40px;
+  border-radius: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: none;
+  font-family: Bebas;
+}
