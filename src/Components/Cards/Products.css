@@ -1,0 +1,72 @@
+.plist {
+  background-image: url("./22.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  margin-top: -20px;
+  padding-top: 30px;
+}
+
+.plist h1 {
+  color: #494949;
+  font-size: 50px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pro {
+  border: 1px solid #c5c5c5;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 30px;
+  background-color: #fff;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+  max-width: 350px;
+  height: 700px;
+  text-align: center;
+  transition: transform 0.5s ease;
+}
+
+.pro:hover {
+  transform: translateY(-10px);
+}
+
+.pimage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.pname {
+  font-weight: bold;
+  color: #003084;
+}
+
+.pprice {
+  color: #e60000;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.description {
+  font-style: italic;
+  color: #555;
+}
+
+.pcategory {
+  color: #003084;
+  font-size: 25px;
+}
+
+.padd {
+  position: relative;
+  margin-top: -200px;
+  margin-bottom: 100px;
+}
