@@ -1,0 +1,45 @@
+.body00 {
+  background-color: #f6f6f6;
+  height: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.Comments {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 30px;
+}
+
+.clist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.ccard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s;
+}
+
+.ccard:hover {
+  transform: scale(1.05);
+}
+
+.ccard h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.ccard p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #262626;
+  padding-top: 10px;
+}
