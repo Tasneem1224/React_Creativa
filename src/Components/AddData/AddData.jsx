@@ -3,11 +3,14 @@ import "./AddData.css";
 import axios from "axios";
 
 class AddData extends Component {
-  state = {
-    name: "",
-    email: "",
-    comment: "",
-  };
+  constructor() {
+    super();
+    this.state = {
+      name: "",
+      email: "",
+      comment: "",
+    };
+  }
 
   handleChange = (event) => {
     this.setState({
@@ -18,16 +21,8 @@ class AddData extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
 
-    const { name, email, comment } = this.state;
-
-    const newC = {
-      name,
-      email,
-      comment,
-    };
-
     axios
-      .post("https://jsonplaceholder.typicode.com/comments", newC)
+      .post("https://jsonplaceholder.typicode.com/comments", this.state)
       .then((response) => {
         console.log("Posted Comment:", response.data);
       });
