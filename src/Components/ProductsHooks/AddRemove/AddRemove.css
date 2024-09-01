@@ -1,0 +1,44 @@
+.add2 {
+  width: 200px;
+  margin-top: 50px;
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0.5, 0, 0.5);
+ 
+}
+
+.bu2 {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  font-size: 35px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #c639d3;
+}
+
+.bu2:hover {
+  background-color: #f132ff;
+}
+
+ul {
+  list-style-type: none;
+  justify-content: center;
+
+  margin: 0;
+  display: flex;
+}
+
+li {
+  padding-right: 40px;
+}
+
+label {
+  font-size: 35px;
+  font-family: Bebas;
+
+  color: #a400b3;
+}
