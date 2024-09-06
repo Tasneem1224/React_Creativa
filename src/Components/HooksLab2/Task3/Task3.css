@@ -1,0 +1,15 @@
+.body03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("./img03.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.pa3 {
+  font-size: 90px;
+  font-family: Poppins;
+  margin-top: 100px;
+  color: rgb(62, 62, 62);
+}

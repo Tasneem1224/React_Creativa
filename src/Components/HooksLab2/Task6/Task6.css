@@ -1,0 +1,44 @@
+.body06 {
+  background: url("./img06.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: -50px;
+  font-family: Poppins;
+}
+
+.he6 {
+  font-size: 60px;
+  font-family: Poppins;
+  color: rgb(255, 255, 255);
+  padding-top: 50px;
+}
+
+.comments6 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card6 {
+  padding: 20px;
+  border: 1px solid #c5c5c5;
+  border-radius: 30px;
+  margin: 30px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5);
+  max-width: 500px;
+  height: 400px;
+  text-align: center;
+}
+
+.pa16 {
+  font-size: 30px;
+  color: rgb(0, 50, 151);
+}
+.pa26 {
+  font-size: 25px;
+}
+
+.pa36 {
+  font-size: 20px;
+}
